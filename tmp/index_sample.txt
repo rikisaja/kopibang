@@ -8,7 +8,6 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>Website Kopi Kuy</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsif.css">
 </head>
 
 <body>
@@ -21,57 +20,60 @@
             <a href="#contact-us">Contact Us</a>
         </div>
         <a class="shop" href="produk.html">Shop</a>
-        <a class="chat" href="https://wa.me/628123456?text=Saya ingin bertanya" target="_blank">Chat</a>
+        <a class="chat" href="https://wa.me/nomor_hp_anda_pakai_62" target="_blank">Chat</a>
     </nav>
 
-    <!-- Tulis Kode HTML / <header> Setelah baris di bawah ini (baris 28) -->
+    <!-- Tulis Kode Setelah panah di bawah ini -->
 
     <header>
         <div class="kiri">
-            <h1>
-                Kopi Kuy <img src="images/icon/icon_kopi.svg" alt="">
-            </h1>
-            <p>
-                Kopi Kuy merupakan sebuah startup kopi retail yang ingin menyajikan
-                high quality Coffee untuk para pelanggannya.
-            </p>
-            <p>
-                dapat dibeli melalui:
-            </p>
+            <h1>Kopi Kuy <img src="images/icon/icon_kopi.svg"></h1>
+
+            <p>Kopi Kuy merupakan sebuah startup kopi retail yang ingin menyajikan high
+                quality Coffee untuk para pelanggannya.</p>
+
+            <p>Dapat dibeli melalui</p>
+
             <div class="olshop">
                 <img src="images/logo/logo_bukalapak.png" alt="">
-                <img src="images/logo/logo_shopee.png" alt="">
                 <img src="images/logo/logo_tokopedia.png" alt="">
+                <img src="images/logo/logo_shopee.png" alt="">
             </div>
         </div>
 
         <div class="kanan">
-            <img src="images/header/header1.png" alt="">
+            <img src="images/header/header1.png">
         </div>
     </header>
 
-    <section class="best-seller" id="best-seller">
-        <h2>Menu andalan kami</h2>
+    <section id="best-seller" class="best-seller">
+
+        <h2>Menu Andalan Kami</h2>
+
         <p>Nikmati menu andalan yang menjadi favorit customer Kami</p>
 
         <div class="produk">
             <img src="images/produk/product_capuchino.jpg" alt="">
-            <p>Cappuccino</p>
+            <p>Capuchino</p>
         </div>
+
         <div class="produk">
             <img src="images/produk/product_espresso.jpg" alt="">
             <p>Espresso</p>
         </div>
+
         <div class="produk">
-            <img src="images/produk/product_capuchino.jpg" alt="">
+            <img src="images/produk/product_kopi_susu.jpg" alt="">
             <p>Kopi Susu</p>
         </div>
+
         <div class="produk">
             <img src="images/produk/product_latte.jpg" alt="">
-            <p>Latte</p>
+            <p>Cafe Latte</p>
         </div>
 
     </section>
+
 
     <section id="about-us" class="about-us">
         <h2>Gak Ngopi Gak Kuy!</h2>
@@ -98,7 +100,7 @@
             hingga barista dengan sertifikat internasional. </p>
 
         <div class="team">
-            <img src="images/trainer-riki-kurnia.jpg">
+            <img src="images/team/team1.jpg">
             <h3>Riki Steven</h3>
             <p>Founder Kopi Kuy</p>
         </div>
@@ -194,17 +196,17 @@
             <a href="#contact-us">Contact Us</a>
             <a href="produk.html">Shop</a>
         </div>
-        <p>&copy; 2023 Kopi Kuy. All Rights Reserved</p>
+        <p>© 2023 Kopi Kuy. All Rights Reserved</p>
     </footer>
 
 
     <!--
         Kode HTML tidak boleh lewat dari batas ini
         Pastikan setiap section di tutup
-        misalnya kode <section class="best-seller"> harus ada
+        misalnya kode best-seller harus ada
         di bawah kode </header> (perhatikan ada garis miringnya
         dan setiap section harus setelah kode </section>
-        jangan menulis <section> di dalam <section>
+        jangan menulis section di dalam section
     -->
 </body>
 

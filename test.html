@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section.best-seller {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        h2,
+        p {
+            width: 100%;
+        }
+
+        div.produk {
+            width: 25%;
+        }
+
+        img {
+            max-width: 100%
+        }
+
+        @media (max-width:600px) {
+            div.produk {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="best-seller" id="best-seller">
+        <h2>Menu andalan kami</h2>
+        <p>Nikmati menu andalan yang menjadi favorit customer Kami</p>
+
+        <div class="produk">
+            <img src="images/produk/product_capuchino.jpg" alt="">
+            <p>Cappuccino</p>
+        </div>
+        <div class="produk">
+            <img src="images/produk/product_espresso.jpg" alt="">
+            <p>Espresso</p>
+        </div>
+        <div class="produk">
+            <img src="images/produk/product_capuchino.jpg" alt="">
+            <p>Kopi Susu</p>
+        </div>
+        <div class="produk">
+            <img src="images/produk/product_latte.jpg" alt="">
+            <p>Latte</p>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
