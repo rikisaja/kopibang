@@ -6,10 +6,6 @@
    padding: 0;
 }
 
-body h2 {
-   color: green;
-}
-
 html {
    /* scroll-behavior: smooth agar scroll ketika klik pada navigasi menjadi halus */
    scroll-behavior: smooth;
@@ -66,7 +62,6 @@ body {
    kenapa pada body? karena elemen body membungkus semua elemen dari nav section sampai footer
    */
    font-family: 'Poppins';
-   background-image: url(../images/background/bgkopi.png);
 }
 
 /*
@@ -140,7 +135,7 @@ nav {
    untuk pengguna vscode silahkan arahkan mouse ke kotak warna di bawah
    untuk mengganti warna sesuai keinginan
    */
-   background-color: #500f02;
+   background-color: rgba(161, 3, 116, 0.583);
 
    /* box-shadow membuat efek bayangan */
    box-shadow: 0 3px 7px -2px #000;
@@ -318,18 +313,12 @@ div.produk {
    width: 25%;
 }
 
-@media (max-width:600px) {
-   div.produk {
-      width: 50%;
-   }
-}
-
 div.produk img {
    /* transition membuat animasi transisi dari perubahan style, 0.3s berarti 0.3 detik */
    transition: all 0.3s ease;
 
    /* border-radius  Membuat sudut membulat */
-   border-radius: 15px;
+   border-radius: 0px;
 
    /* box-shadow membuat efek bayangan */
    box-shadow: 0 3px 10px -2px #000;
@@ -346,7 +335,7 @@ maka akan menghasilkan efek animasi yang smooth
 div.produk img:hover {
 
    /* membuat transformasi, bisa berupa scale(1.05), rotate(180deg), translateY(-50px), dsb */
-   transform: scale(0.9) rotate(360deg);
+   transform: scale(0.9) rotate(180deg);
    border-radius: 50%;
 }
 
@@ -426,12 +415,6 @@ div.team {
    padding: 20px;
 }
 
-@media (max-width:600px) {
-   div.team {
-      width: 50%;
-   }
-}
-
 div.team img {
    width: 100%;
    aspect-ratio: 1/1;
@@ -462,6 +445,7 @@ section.review {
    justify-content: space-around;
    /* align-items: stretch; membuat tinggi elemen di dalam .review .baris seragam */
    text-align: center;
+   align-items: stretch;
 }
 
 section.review h2 {
@@ -569,8 +553,8 @@ footer div.navigasi a {
    }
 
    div.produk,
-   div.team,
-   div.kontak {
+   div.kontak,
+   div.team {
       width: 50%;
    }
 
@@ -578,10 +562,6 @@ footer div.navigasi a {
       width: 100%;
       margin-bottom: 20px;
    }
-}
-
-body {
-   background-image: url(../images/background/bgkopi.png);
 }
 
 /* Kode CSS Selesai di sini */
